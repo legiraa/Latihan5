@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Percobaan.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>  
 <div class="home">
-    <h3>Coder
-    <nav class="nav1">
+    <nav class="navigation">
         <a href="#About">About</a>
         <a href="#Service">Service</a>
         <a href="#Contact">Contact</a>
     </nav>
-    </h3>
+    <nav class="judul"><h3>Coder</h3></nav>
+
 </div>
-    <div class="satu"> 
+    <div class="About" id="About"> 
         <div class="right-image">
             <img src="landing.png">
         </div>
@@ -29,7 +29,7 @@
         </p>
     </div>
 
-    <div class="dua">
+    <div class="About2">
         <div class="left-image">
             <img src="about.png">
         </div>    
@@ -53,6 +53,88 @@
               <span class="text">Projects</span>
             </div>
         </div>     
+    </div>
+
+    <div class="Service" id="Service">
+        <h3>Our Service
+        <div class="nav2">
+            <input type="contact us2" class="CU-button2" value="Contact Us">
+        </h3>   
+        </div> 
+        
+        <div class="b1"><b>We have the best service to solve your problem</b></div>
+        <div class="container2">
+            <div class="box">
+                <img src="service1.png" alt="Gambar 1">
+                <div class="text1">
+                    <b>Web Application</b>
+                </div>    
+                <div class="text2">
+                    <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione.</b>
+                </div>
+            </div>
+            <div class="box">
+                <img src="service2.png" alt="Gambar 2">
+                <div class="text1">
+                    <b>UI/UX Design</b>
+                </div>   
+                <div class="text2">
+                    <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione</b>
+                </div> 
+            </div>
+            <div class="box">
+                <img src="service3.png" alt="Gambar 3">
+                <div class="text1">
+                    <b>Mobile Application</b>
+                </div>    
+                <div class="text2">
+                    <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione.</b>
+                </div> 
+            </div>
+        </div>   
+    </div>
+
+    <div class="Contact" id="Contact">
+        <h3>Contact Us</h3>
+        <div class="b2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiande, tempore!</b></div>
+        
+        <div class="container3">
+            <div class="form-container">
+                <h2>Tell Us Your Problem</h2>
+                <form>
+                    <div class="data">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="data">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="data">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </form>
+
+                <div class="data2">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <hr>
+                <button type="submit">Submit</button>
+            </div>
+            
+            <div class="location">
+                <h4>Our Location</h4>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.865984405633!2d107.4447009!3d-6.5386033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e68a1406c01%3A0xa66f34eb29c41198!2sUniversitas%20Pendidikan%20Indonesia%2C%20Kampus%20Purwakarta!5e0!3m2!1sid!2sid!4v1696743549940!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>

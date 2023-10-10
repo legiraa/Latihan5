@@ -4,8 +4,33 @@ body {
     background-color:#fff;
 }
 
-.satu {
-    margin-top: 300px;
+.home{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    background-color:lavender; 
+    width: 100%; 
+    transform: translateX(-50%);
+}
+
+.judul{
+    margin-left: 100px ;
+}
+
+.navigation {
+    font-size: 30px;
+    float:right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.navigation>a:hover {
+    color:white;
+    transition: all .3s ease-in-out
+}
+
+.About {
+    margin-top: 280px;
     margin-bottom: 100px;
 }
 
@@ -14,21 +39,6 @@ body {
     margin:5px;
     width: 45%;
     }
-
-.nav1 {
-    font-size: 30px;
-    float:right;
-}
-
-.home{
-    position: fixed;
-    top: 0;
-    left: 50%;
-    background-color:lavender; 
-    width: 100%; 
-    transform: translateX(-50%);
-    margin-bottom: 0px;
-}
 
 h3{
     font-size: 50px;
@@ -73,7 +83,7 @@ h3{
     color: white; 
 }
 
-.dua {
+.About2 {
     margin-top: 300px;
     margin-bottom: 100px;
 }
@@ -117,4 +127,159 @@ h3{
   font-weight: bold;
   font-size: 30px;
   color: dimgray;
+}
+
+.Service h3 {
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.nav2 {
+    float: right;
+    font-size: 30px;
+}
+
+.CU-button2 {
+    background-color: mediumpurple;
+    color: #fff;
+    border: none; 
+    cursor: pointer;
+    padding: 13px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.CU-button2:active {
+    background-color:blueviolet; 
+    color: white; 
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.box {
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    color: #fff;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text1 {
+    background-color: mediumpurple;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text2 {
+    background-color: white;
+    color: dimgray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Contact h3 {
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+
+.container3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 50% ;
+    height:50%;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+    border: 3px solid mediumpurple;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+.data {
+    display: flex;
+    align-items: center; 
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px; 
+    flex: 1; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black; 
+}
+
+hr {
+    border: none;
+}
+
+button {
+    background-color: mediumpurple;
+    color: white;
+    padding: 10px 250px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:active {
+    background-color:blueviolet; 
+}
+
+.location {
+    margin-left: 100px;
+    float: right;
+}
+
+.map {
+    width: 400px;
+    height: 300px; 
+    border: 1px solid #ccc;
+    float: right;
+}
+
+h4{
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.b2{
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: dimgrey;
 }
