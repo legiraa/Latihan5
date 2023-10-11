@@ -168,6 +168,7 @@ h3{
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
     color: #fff;
+    transition: border-radius 0.3s ease;
 }
 
 .box img {
@@ -175,6 +176,13 @@ h3{
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    border-radius: 15px; 
+    overflow: hidden; 
 }
 
 .text1 {
@@ -284,7 +292,7 @@ h4{
     color: dimgrey;
 }
 
-.lima{
+.footer{
     position:absolute;
     left: 50%;
     background-color: mediumpurple; 
